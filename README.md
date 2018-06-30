@@ -12,3 +12,5 @@ then click subscribe
 first : insert a Topic to publish by any topic you want and make sure to insert the same topic 
 in the subscribe edit text and click subscribe in the app
 http://androidkt.com/wp-content/uploads/2017/04/Config-Mqtt-Client-768x475.png
+
+http://androidkt.com/wp-content/uploads/2017/04/Publish-and-Subscribe-768x500.png
