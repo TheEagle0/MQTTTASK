@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button messageBtn, subscribeBtn, unsubscribeBtn, helloBtn, byeBtn;
     private MqttAndroidClient mqttAndroidClient;
     private MQTTClint mqttClint;
-    private TextView textView;
+    private TextView messageTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         unsubscribeBtn = findViewById(R.id.unsubscribe_btn);
         helloBtn = findViewById(R.id.send_hello);
         byeBtn = findViewById(R.id.send_bye);
-        textView=findViewById(R.id.text);
+        messageTextView=findViewById(R.id.text);
     }
 
     /**
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         public void onReceive(Context context, Intent intent) {
             String message = intent.getStringExtra("message");
-            textView.setText(message);
+            messageTextView.setText(message);
         }
     };
 
