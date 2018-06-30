@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MQTT Task</string>
+    <string name="message">Message</string>
+    <string name="send_message">Send Message</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="send_hello">Send Hello</string>
+    <string name="send_bye">Send Bye</string>
+    <string name="hello">Hello</string>
+    <string name="bye">Bye</string>
+    <string name="disconnect">Disconnect</string>
+</resources>
